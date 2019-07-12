@@ -8,7 +8,7 @@ import AddBook from './components/AddBook'
 
 //apollo clinet setup
 const client = new ApooloClient({
-  uri : 'http://localhost:4000/graphql'
+  uri : 'http://secondfirst.herokuapp.com/graphql'
 })
 
 function App() {
